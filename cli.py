@@ -20,6 +20,7 @@ def parse_targets(args,devices): # 1 2 1-5 all
         
         
 def start(devices,router):
+    help()
     printcolor("do you want to use the devices saved from last time , otherwise we will make a scan that takes from 1-2 minutes . do you want to use the devices already saved ? (y/n) : ")
     res=input()
     if res=="y" or res=="Y" or res=="yes" or res=="YES":
